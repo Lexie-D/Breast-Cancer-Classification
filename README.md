@@ -29,7 +29,7 @@ It consists of:
    - Final Output Layer with `softmax` for 3 categorical classes
 
 3. **Training**
-   - Optimizer: Adam with learning_rate = 1e-3
+   - Optimizer: Adam with learning_rate = 1e-4
    - Loss: Categorical Crossentropy
    - Metrics: Accuracy, Precision, Recall, F1-Score, AUC
 
