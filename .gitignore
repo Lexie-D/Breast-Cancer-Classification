@@ -1,0 +1,23 @@
+
+# Ignore model files
+*.h5
+*.hdf5
+*.keras
+
+# Ignore checkpoints and logs
+checkpoints/
+*.ckpt
+*.log
+logs/
+
+# Ignore dataset zip and extracted folders
+*.zip
+Dataset_BUSI_with_GT/
+
+# Ignore Jupyter/Colab-related files
+.ipynb_checkpoints/
+.colab/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
